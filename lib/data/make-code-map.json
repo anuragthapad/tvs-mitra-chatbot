@@ -1,0 +1,478 @@
+{
+  "Apache": [
+    {
+      "Model_Description": "Apache 200 4V 1Ch - R Mode Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 131824.6
+    },
+    {
+      "Model_Description": "Apache 200 4V 2Ch - R Mode Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 131234.7123287671
+    },
+    {
+      "Model_Description": "Apache Rr 310 Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 212797.0
+    },
+    {
+      "Model_Description": "Apache Rtr 160 2V Bsvi Disc",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 114453.1237113402
+    },
+    {
+      "Model_Description": "Apache Rtr 160 2V Bsvi Drum",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 112161.3111111111
+    },
+    {
+      "Model_Description": "Apache Rtr 160 2V Rm Disc Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 111548.3669950739
+    },
+    {
+      "Model_Description": "Apache Rtr 160 2V Rm Disc Bt Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 114854.22033462033
+    },
+    {
+      "Model_Description": "Apache Rtr 160 2V Rm Drum Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 108401.02407802499
+    },
+    {
+      "Model_Description": "Apache Rtr 160 4V Bsvi Disc",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 121392.29411764706
+    },
+    {
+      "Model_Description": "Apache Rtr 160 4V Bsvi Drum",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 113676.5
+    },
+    {
+      "Model_Description": "Apache Rtr 160 4V Disc Bt Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 123201.81967213115
+    },
+    {
+      "Model_Description": "Apache Rtr 165 Rp Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 148711.0
+    },
+    {
+      "Model_Description": "Apache Rtr 180 Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 113636.2
+    },
+    {
+      "Model_Description": "Apache Rtr 180 Rm Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 119044.87605633803
+    },
+    {
+      "Model_Description": "Apache Rtr 200 4V Bsvi 1Ch Abs",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 100000.0
+    },
+    {
+      "Model_Description": "Apache Rtr 200 4V Bsvi 2Ch Abs",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 128616.58
+    },
+    {
+      "Model_Description": "Apache Rtr 310 Bsvi Base Blk",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 208356.3076923077
+    },
+    {
+      "Model_Description": "Apache Rtr 310 Bsvi Base Blk- U400",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 200761.75
+    },
+    {
+      "Model_Description": "Apache Rtr 310 Bsvi Base Yel",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 224137.0
+    },
+    {
+      "Model_Description": "Tvs Apache Rtr 160 2V Rm Obdiia Drum Be Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 121821.0
+    },
+    {
+      "Model_Description": "Tvs Apache Rtr 160 4V - Rm Disc Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 120514.07608695653
+    },
+    {
+      "Model_Description": "Tvs Apache Rtr 160 4V - Rm Drum Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 115210.49275362318
+    },
+    {
+      "Model_Description": "Tvs Apache Rtr 160 4V - Rm Spl Edition Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 121497.98608090474
+    },
+    {
+      "Model_Description": "Tvs Apache Rtr 160 4V Bsvi - U626",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 121909.38109756098
+    },
+    {
+      "Model_Description": "Tvs Apache Rtr 160 4V Rm Obdiia Drum Be Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 111194.0
+    }
+  ],
+  "City Plus": [
+    {
+      "Model_Description": "Starcity Plus Es Bsvi \u00c2\u0080\u0093 Mono Tone",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 74602.58536585367
+    },
+    {
+      "Model_Description": "Starcity Plus Es Disc Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 78199.19469026549
+    },
+    {
+      "Model_Description": "Starcity Plus Es Dt Bsvi \u00c2\u0080\u0093 Dual Tone",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 75398.60038610038
+    }
+  ],
+  "Jupiter": [
+    {
+      "Model_Description": "Jupiter 125 Bsvi - Disc",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 92739.93376941945
+    },
+    {
+      "Model_Description": "Jupiter 125 Bsvi Disc Sxc U566",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 97249.71996440225
+    },
+    {
+      "Model_Description": "Jupiter 125 Drum Bsvi - Alloy Wheel",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 87694.57737725295
+    },
+    {
+      "Model_Description": "Jupiter 125 Drum Bsvi - Smw",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 82952.4
+    },
+    {
+      "Model_Description": "Jupiter Bsvi - Aol",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 82003.65066729103
+    },
+    {
+      "Model_Description": "Jupiter Bsvi - Smw",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 77916.12128279883
+    },
+    {
+      "Model_Description": "Jupiter Bsvi Basic",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 82329.69230769231
+    },
+    {
+      "Model_Description": "Jupiter Classic Bsvi",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 90054.52173913043
+    },
+    {
+      "Model_Description": "Jupiter Zx Bsvi - Aol - Drum",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 85821.45628834356
+    },
+    {
+      "Model_Description": "Jupiter Zx Bsvi \u00c2\u0080\u0093 Zx Drum",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 85483.54807692308
+    },
+    {
+      "Model_Description": "Jupiter Zx Disc - Bsvi - Iss",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 89730.76190476191
+    },
+    {
+      "Model_Description": "Jupiter Zx Disc - Sxc Bsvi",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 90010.61661073826
+    },
+    {
+      "Model_Description": "Jupiter Zx Disc Bsvi",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 93214.60869565218
+    },
+    {
+      "Model_Description": "Jupiter Zx Drum Sxc Bsvi",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 87722.2537815126
+    },
+    {
+      "Model_Description": "Tvs Jupiter Classic Disc Bsvi",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 90747.57121661722
+    }
+  ],
+  "Mopeds": [
+    {
+      "Model_Description": "Tvs Xl 100 Com Its Bsvi",
+      "Product_Code": "Mo",
+      "Avg_Model_Price": 60153.148362235064
+    },
+    {
+      "Model_Description": "Tvs Xl 100 Com Ks Bsvi",
+      "Product_Code": "Mo",
+      "Avg_Model_Price": 49660.46666666667
+    },
+    {
+      "Model_Description": "Tvs Xl 100 Hd Its Bsvi",
+      "Product_Code": "Mo",
+      "Avg_Model_Price": 59310.77340182648
+    },
+    {
+      "Model_Description": "Tvs Xl 100 Hd Its Bsvi - Winner Edition",
+      "Product_Code": "Mo",
+      "Avg_Model_Price": 65085.770036816764
+    },
+    {
+      "Model_Description": "Tvs Xl 100 Hd Its Spl Edition Bsvi",
+      "Product_Code": "Mo",
+      "Avg_Model_Price": 66750.60416666667
+    },
+    {
+      "Model_Description": "Tvs Xl 100 Hd Ks Bsvi",
+      "Product_Code": "Mo",
+      "Avg_Model_Price": 44924.74495770982
+    }
+  ],
+  "Nan": [
+    {
+      "Model_Description": "Nan",
+      "Product_Code": "Eb",
+      "Avg_Model_Price": 89195.0
+    },
+    {
+      "Model_Description": "Nan",
+      "Product_Code": "Mo",
+      "Avg_Model_Price": 67197.0
+    },
+    {
+      "Model_Description": "Nan",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 86995.0
+    }
+  ],
+  "Ntorq": [
+    {
+      "Model_Description": "Ntorq 125 Disc - Super Squad Edition Bsvi",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 99035.7604836635
+    },
+    {
+      "Model_Description": "Ntorq 125 Disc \u00c2\u0080\u0093 Race Edition Bsvi",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 97146.45676776822
+    },
+    {
+      "Model_Description": "Ntorq 125 Xt Bsvi",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 105366.37737083061
+    },
+    {
+      "Model_Description": "Tvs Ntorq 125 Disc Bsvi",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 99037.70297029703
+    },
+    {
+      "Model_Description": "Tvs Ntorq 125 Race Xp Bsvi",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 97661.90846877673
+    }
+  ],
+  "Radeon": [
+    {
+      "Model_Description": "Tvs Radeon 110 Dual Tone Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 73445.44776119402
+    },
+    {
+      "Model_Description": "Tvs Radeon 110 Es Mag Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 70748.44254908271
+    },
+    {
+      "Model_Description": "Tvs Radeon 110 Es Mag Ref Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 75422.66445916115
+    },
+    {
+      "Model_Description": "Tvs Radeon Bsvi Digi Disc Dual Tone",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 83637.93699515348
+    },
+    {
+      "Model_Description": "Tvs Radeon Bsvi Digi Drum Dual Tone",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 78855.63324873097
+    },
+    {
+      "Model_Description": "Tvs Radeon Bsvi Digi Drum Isg",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 76997.26315789473
+    },
+    {
+      "Model_Description": "Tvs Radeon Bsvi Disc Dual Tone",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 81788.81481481482
+    },
+    {
+      "Model_Description": "Tvs Radeon Disc Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 75743.90625
+    }
+  ],
+  "Raider": [
+    {
+      "Model_Description": "Tvs Raider Disc Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 91633.17816792653
+    },
+    {
+      "Model_Description": "Tvs Raider Disc Connected Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 100793.91518324608
+    },
+    {
+      "Model_Description": "Tvs Raider Disc Ss Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 90637.9763828465
+    },
+    {
+      "Model_Description": "Tvs Raider Disc Sse Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 94923.45025510204
+    },
+    {
+      "Model_Description": "Tvs Raider Drum Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 70691.0
+    }
+  ],
+  "Ronin": [
+    {
+      "Model_Description": "Tvs Ronin 1Ch Base Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 136066.8730964467
+    },
+    {
+      "Model_Description": "Tvs Ronin 1Ch Base Plus Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 146130.71666666667
+    },
+    {
+      "Model_Description": "Tvs Ronin 2Ch Mid Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 152474.4351851852
+    },
+    {
+      "Model_Description": "Tvs Ronin 2Ch Mid Ng Refresh Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 156590.3950617284
+    },
+    {
+      "Model_Description": "Tvs Ronin 2Ch Mid Spl Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 148084.11976047905
+    }
+  ],
+  "Scooty": [
+    {
+      "Model_Description": "Scooty Pep Plus Bsvi",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 67421.0
+    },
+    {
+      "Model_Description": "Scooty Pep Plus Matte Series - Bsvi",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 58702.0
+    }
+  ],
+  "Sport": [
+    {
+      "Model_Description": "Tvs Sport Duralife Ks Swl Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 67668.0
+    },
+    {
+      "Model_Description": "Tvs Sport Els Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 67299.39874551972
+    },
+    {
+      "Model_Description": "Tvs Sport Es Bsvi - U559",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 61573.795926517574
+    },
+    {
+      "Model_Description": "Tvs Sport Kls Bsvi",
+      "Product_Code": "Mc",
+      "Avg_Model_Price": 60406.795454545456
+    }
+  ],
+  "Tvs": [
+    {
+      "Model_Description": "Iqube Ev",
+      "Product_Code": "Eb",
+      "Avg_Model_Price": 117607.44186046511
+    },
+    {
+      "Model_Description": "Tvs Iqube 09",
+      "Product_Code": "Eb",
+      "Avg_Model_Price": 91633.06666666667
+    },
+    {
+      "Model_Description": "Tvs Iqube L43",
+      "Product_Code": "Eb",
+      "Avg_Model_Price": 110912.72727272728
+    },
+    {
+      "Model_Description": "Tvs Iqube S",
+      "Product_Code": "Eb",
+      "Avg_Model_Price": 126671.72087568413
+    },
+    {
+      "Model_Description": "Tvs Iqube S C45",
+      "Product_Code": "Eb",
+      "Avg_Model_Price": 122778.9
+    },
+    {
+      "Model_Description": "Tvs Iqube St 2P",
+      "Product_Code": "Eb",
+      "Avg_Model_Price": 153108.0
+    },
+    {
+      "Model_Description": "Tvs Iqube Ug",
+      "Product_Code": "Eb",
+      "Avg_Model_Price": 116291.69818716316
+    }
+  ],
+  "Zest": [
+    {
+      "Model_Description": "Scooty Zest - Bsvi",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 75847.10371517028
+    },
+    {
+      "Model_Description": "Scooty Zest Matte Series - Bsvi",
+      "Product_Code": "Sc",
+      "Avg_Model_Price": 77874.52095808383
+    }
+  ]
+}
