@@ -3,41 +3,44 @@ import { createClient } from "@/lib/supabase/client"
 export interface UserSession {
   id?: string
   session_id: string
+  start_time?: string
+  end_time?: string
+  total_time_spent_seconds?: number
+  device_info?: string
+  is_completed: boolean
   created_at?: string
   updated_at?: string
-  total_time_spent: number
-  questions_answered: number
-  is_completed: boolean
-  user_agent?: string
-  ip_address?: string
 }
 
 export interface LoanApplicationData {
   session_id: string
+  // User Input Fields
   age: number
+  pincode: string
   annual_salary: number
   monthly_salary: number
-  loan_amount: number
-  pincode: string
   qualification: string
   employment_type: string
   make_code: string
-  past_loans: string
-  ltv_ratio: number
-  state: string
-  state_avg_salary: number
-  avg_model_price: number
-  final_tier: string
-  age_bin: string
-  salary_bin: string
-  ltv_bin: string
-  employment_age_interaction: string
-  qualification_employment_interaction: string
-  salary_ltv_ratio: number
-  age_salary_ratio: number
-  approval_probability: number
+  past_loans?: string
+  // Feature Engineered Fields
+  age_bin?: string
+  salary_bin?: string
+  ltv_ratio?: number
+  state?: string
+  state_avg_salary?: number
+  final_tier?: string
+  avg_model_price?: number
+  salary_ltv_ratio?: number
+  net_salary?: number
+  income_to_loan_ratio?: number
+  age_salary_interaction?: number
+  employment_age?: string
+  // Prediction Results
+  prediction_probability?: number
+  roc_auc_score?: number
   is_approved: boolean
-  recommended_models: any[]
+  recommended_variants?: any
 }
 
 export interface CustomerFeedbackData {
@@ -48,18 +51,12 @@ export interface CustomerFeedbackData {
 
 export interface ModelEvaluationData {
   session_id: string
-  model_version: string
   accuracy: number
   precision_score: number
   recall: number
   f1_score: number
   roc_auc: number
   gini_coefficient: number
-  training_data_size: number
-  feature_count: number
-  model_parameters: any
-  feature_importance: any
-  training_date: string
 }
 
 export class DatabaseService {
