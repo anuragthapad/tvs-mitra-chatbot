@@ -325,6 +325,23 @@ export default function LoanChatbot() {
             console.error("[v0] Failed to save model evaluation")
           }
 
+          // Save model prediction for detailed tracking
+          const predictionData = {
+            session_id: sessionId,
+            loan_application_id: applicationId || undefined,
+            input_features: features,
+            prediction_score: prediction.probability || 0,
+            prediction_class: prediction.approved,
+            confidence_level: metrics.roc_auc,
+            model_version: "v1.0",
+          }
+
+          console.log("[v0] Attempting to save model prediction with data:", predictionData)
+          const predictionId = await databaseService.saveModelPrediction(predictionData)
+          if (predictionId) {
+            console.log("[v0] Model prediction saved with ID:", predictionId)
+          }
+
           await databaseService.updateUserSession(sessionId, {
             is_completed: true,
             total_time_spent: applicationTimeSpent,
