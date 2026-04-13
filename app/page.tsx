@@ -401,25 +401,8 @@ export default function LoanChatbot() {
   }
 
   const resetChat = () => {
-    setCurrentQuestion(0)
-    setAnswers({})
-    setCurrentAnswer("")
-    setIsComplete(false)
-    setError("")
-    setIsProcessing(false)
-    setShowQuestion(true)
-    setShowFeedback(false)
-    setFeedbackRating(0)
-    setImprovementAreas([])
-    setFeedbackSubmitted(false)
-    setAllVariants([])
-    setEngineeredFeatures(null)
-    setEvaluationMetrics(null)
-    setSessionId("")
-    setSessionStartTime(new Date())
-    setQuestionStartTime(new Date())
-    setTotalTimeSpent(0)
-    setLoanApplicationId("")
+    // Refresh the page to start a completely fresh session with new database entry
+    window.location.reload()
   }
 
   const StarRating = ({ rating, onRatingChange }: { rating: number; onRatingChange: (rating: number) => void }) => {
