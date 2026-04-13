@@ -325,6 +325,23 @@ export default function LoanChatbot() {
             console.error("[v0] Failed to save model evaluation")
           }
 
+          // Save model prediction for detailed tracking
+          const predictionData = {
+            session_id: sessionId,
+            loan_application_id: applicationId || undefined,
+            input_features: features,
+            prediction_score: prediction.probability || 0,
+            prediction_class: prediction.approved,
+            confidence_level: metrics.roc_auc,
+            model_version: "v1.0",
+          }
+
+          console.log("[v0] Attempting to save model prediction with data:", predictionData)
+          const predictionId = await databaseService.saveModelPrediction(predictionData)
+          if (predictionId) {
+            console.log("[v0] Model prediction saved with ID:", predictionId)
+          }
+
           await databaseService.updateUserSession(sessionId, {
             is_completed: true,
             total_time_spent: applicationTimeSpent,
@@ -384,25 +401,8 @@ export default function LoanChatbot() {
   }
 
   const resetChat = () => {
-    setCurrentQuestion(0)
-    setAnswers({})
-    setCurrentAnswer("")
-    setIsComplete(false)
-    setError("")
-    setIsProcessing(false)
-    setShowQuestion(true)
-    setShowFeedback(false)
-    setFeedbackRating(0)
-    setImprovementAreas([])
-    setFeedbackSubmitted(false)
-    setAllVariants([])
-    setEngineeredFeatures(null)
-    setEvaluationMetrics(null)
-    setSessionId("")
-    setSessionStartTime(new Date())
-    setQuestionStartTime(new Date())
-    setTotalTimeSpent(0)
-    setLoanApplicationId("")
+    // Refresh the page to start a completely fresh session with new database entry
+    window.location.reload()
   }
 
   const StarRating = ({ rating, onRatingChange }: { rating: number; onRatingChange: (rating: number) => void }) => {

@@ -59,6 +59,16 @@ export interface ModelEvaluationData {
   gini_coefficient: number
 }
 
+export interface ModelPredictionData {
+  session_id: string
+  loan_application_id?: string
+  input_features: Record<string, any>
+  prediction_score: number
+  prediction_class: boolean
+  confidence_level: number
+  model_version?: string
+}
+
 export class DatabaseService {
   private supabase: ReturnType<typeof createClient> | null = null
   private isConnected = false
@@ -198,6 +208,60 @@ export class DatabaseService {
     } catch (error) {
       console.log("[v0] Network error saving evaluation (non-blocking)")
       return true
+    }
+  }
+
+  async saveModelPrediction(predictionData: ModelPredictionData): Promise<string | null> {
+    const supabase = this.getSupabase()
+    if (!supabase) {
+      console.log("[v0] Supabase not available, skipping prediction save")
+      return null
+    }
+
+    try {
+      const { data, error } = await supabase
+        .from("model_predictions")
+        .insert({
+          ...predictionData,
+          model_version: predictionData.model_version || "v1.0",
+        })
+        .select("id")
+        .single()
+
+      if (error) {
+        console.log("[v0] Prediction save error (non-blocking):", error.message)
+        return null
+      }
+
+      console.log("[v0] Model prediction saved to database")
+      return data.id
+    } catch (error) {
+      console.log("[v0] Network error saving prediction (non-blocking)")
+      return null
+    }
+  }
+
+  async getSessionAnalytics(sessionId: string): Promise<any> {
+    const supabase = this.getSupabase()
+    if (!supabase) return null
+
+    try {
+      const [session, application, feedback, metrics] = await Promise.all([
+        supabase.from("user_sessions").select("*").eq("session_id", sessionId).single(),
+        supabase.from("loan_applications").select("*").eq("session_id", sessionId).single(),
+        supabase.from("customer_feedback").select("*").eq("session_id", sessionId).single(),
+        supabase.from("model_evaluation_metrics").select("*").eq("session_id", sessionId).single(),
+      ])
+
+      return {
+        session: session.data,
+        application: application.data,
+        feedback: feedback.data,
+        metrics: metrics.data,
+      }
+    } catch (error) {
+      console.log("[v0] Error fetching session analytics:", error)
+      return null
     }
   }
 }
